@@ -18,36 +18,19 @@
     <script type="text/javascript" src="js/instamax/jquery/jquery-1.11.2.min.js"></script>
     <!--instamax-->
     <script src="js/instamax/js/jquery.instamax.min.js"></script>
+    <script src="js/instamax/js/source_unpacked/jquery.instamax.js"></script>
+    <script src="js/instamax/js/source_unpacked/jquery.imagesloaded.js"></script>
+    <script src="js/instamax/js/source_unpacked/jquery.wookmark.js"></script>
+    <script src="js/instamax/js/source_unpacked/magnific_popup_image_gallery.js"></script>
     
+    <link rel="stylesheet" href="js/instamax/css/instamax_white.css"/>
+        
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
- 
- <script type="text/javascript">
-      $("#instamax").instamax({
-        clientId:"b647346c229342fea88378c9f540e1e5",
-        user:"https://instagram.com/kevlit3",
-        hashtag:["#nature","#explore","#parttimeexplorers"],
-        selectedTab:"p",
-        coverImage:"https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/e15/11055928_827483687316916_1937461383_n.jpg",
-        alwaysUseDropdown:true,
-        showSearchBox:true,
-        skin:"grey",
-        searchScope:"global",
-        tagScope:"global",
-        maxComments:20,
-        maxResults:9,
-        innerOffset:20,
-        outerOffset:35,
-        minItemWidth:250,
-        maxItemWidth:350,
-        maxContainerWidth:600
-        });
-    </script>
- 
   </head>
   <body>
   <header>
@@ -109,6 +92,36 @@
     2016 &copy; Valerie Carrera. All Rights Reserved.
   </section>
 
+    <script type="text/javascript">
+      $("#instamax").instamax({
+        //clientId:"b647346c229342fea88378c9f540e1e5",
+        accessToken: "2735032382.b647346.63406e8167174cf68edb071ed315729a",
+        
+        user:"https://instagram.com/kevlit3",
+        
+        hashtag:["#nature","#explore","#parttimeexplorers"],        
+        coverImage:"https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/e15/11055928_827483687316916_1937461383_n.jpg",
+        
+        selectedTab:"p",
+        alwaysUseDropdown:true,
+        showSearchBox:true,
+        
+        searchScope:"user",
+        tagScope:"user",
+        widgetMode:false,
+        displayMode:"popup",
+        
+        skin:"grey",
+        
+        maxComments:20,
+        maxResults:9,
+        innerOffset:20,
+        outerOffset:35,
+        minItemWidth:250,
+        maxItemWidth:350,
+        maxContainerWidth:600
+        });
+    </script>
     
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
