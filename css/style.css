@@ -1,0 +1,47 @@
+/*
+* Custom variables
+*/
+/*
+* Override Bootstrap variables
+*/
+@import url(bootstrap.css);
+/*
+* General Styles
+*/
+/* line 32, style.scss */
+* {
+  postiion: relative;
+  box-sizing: border-box;
+}
+
+/* line 37, style.scss */
+body {
+  color: #585c65;
+  font-size: 16px;
+}
+
+/* line 42, style.scss */
+header {
+  max-height: 600px;
+  height: 600px;
+  overflow: hidden;
+}
+/* line 47, style.scss */
+header img {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  margin-left: -600px;
+  width: 1200px;
+}
+@media screen and (min-width: #screen-lg) {
+  /* line 47, style.scss */
+  header img {
+    top: auto;
+    left: auto;
+    margin: 0;
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
