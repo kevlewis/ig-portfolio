@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta name="viewport" content="width=device-width">
+    <title>Instamax - Embed your Complete Instagram Photo Gallery on your Website- Jquery plugin</title>
+	
+	<!--jquery-->
+	<script src="./jquery/jquery-1.11.2.min.js"></script>
+
+	<!--instamax-->
+	
+	<script src="./js/source_unpacked/jquery.imagesloaded.js"></script>
+	<script src="./js/source_unpacked/jquery.wookmark.js"></script>
+	<script src="./js/source_unpacked/magnific_popup_image_gallery.js"></script>
+	<script src="./js/source_unpacked/jquery.instamax.js"></script>
+	
+
+	<link rel="stylesheet" href="./css/instamax_grey.css"/>
+	
+
+
+	
+	<style>
+
+      body {
+        font-family: Calibri;
+        font-size: 14px;
+		text-align:center;
+      }
+	  
+
+	  /*.instamax-load-more-div-click {background-color: #F95A5A !important;} */
+		
+	</style>
+
+	</head>
+  <body>
+		<a href="http://www.codehandling.com/2015/04/instamax-30-instagram-account-photos.html">
+		<h1>Instamax - Embed your Complete Instagram Photo Gallery on your Website</h1>
+		</a>
+<br><br>		
+<div id="instamax" class="instamax"></div>
+
+<br/><br/>
+
+<a href="http://www.codehandling.com/2015/04/instamax-30-instagram-account-photos.html">See how to use this plugin - at codehandling</a>
+
+<br/><br/><br/>
+<br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/>
+
+
+	<script>
+	
+	
+	
+
+
+	
+	$("#instamax").instamax({
+		accessToken:"260796206.0efbe26.89a76a9668934089a2d00d928486fd26",
+
+		user:"https://www.instagram.com/hiltonic_",
+		
+		hashtag: [
+			"#doodle",
+			"#beach"
+		],
+		//coverImage:"https://scontent.cdninstagram.com/hphotos-xap1/t51.2885-15/e15/10011207_1536666213265598_194967083_n.jpg",
+		skin:"grey",
+		
+		selectedTab:"p",
+		alwaysUseDropdown:false,
+		showSearchBox:true,
+		
+		tagScope:"user",
+		widgetMode:false,
+		displayMode:"popup", //can be popup or link
+		
+		maxResults:15,
+		innerOffset:30,
+		outerOffset:30,
+		minItemWidth:200,
+		maxItemWidth:300,
+		maxContainerWidth:800
+		
+		//use below for widget mode
+		/*maxResults:16,
+		innerOffset:5,
+		outerOffset:5,
+		minItemWidth:100,
+		maxItemWidth:120,
+		maxContainerWidth:250*/
+	});
+	
+	
+	
+	
+
+
+	</script>
+
+  </body>
+</html>
+
+
+
