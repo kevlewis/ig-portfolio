@@ -51,13 +51,39 @@ header{
 		margin-left: -600px;
 		width: 1200px;
 	
-		@media screen and (min-width: #screen-lg) {
+		@media screen and (min-width: $screen-lg) {
 			top: auto;
 			left: auto;
 			margin: 0;
 			width: 100%;
 		}
 	}
+	
+	.name {
+        font-size: 21px;
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        color: $white;
+	}
+
+	.titles {
+	    position: absolute;
+	    bottom: 40%;
+	    width: 100%;
+	    text-align: center;
+    
+	    @media screen and (min-width: $screen-lg) {
+		bottom: 50%;
+	    }
+	}
+    
+	h1, h2 {
+	    width: 100%;
+	    color: $white;
+	    margin: 0;
+	}
 }
+
 
 
