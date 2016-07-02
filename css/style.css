@@ -1,80 +1,200 @@
 /*
-Error: Undefined variable: "$screen-lg".
-        on line 54 of /Users/Kev./Dropbox/ig-portfolio/css/style.scss
-
-49: 		top: 0;
-50: 		left: 50%;
-51: 		margin-left: -600px;
-52: 		width: 1200px;
-53: 	
-54: 		@media screen and (min-width: $screen-lg) {
-55: 			top: auto;
-56: 			left: auto;
-57: 			margin: 0;
-58: 			width: 100%;
-59: 		}
-
-Backtrace:
-/Users/Kev./Dropbox/ig-portfolio/css/style.scss:54
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/tree/variable.rb:49:in `_perform'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/tree/node.rb:50:in `perform'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:526:in `block in run_interp_no_strip'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:524:in `map'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:524:in `run_interp_no_strip'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:531:in `run_interp'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:499:in `visit_media'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `block (2 levels) in visit_rule'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `map'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `block in visit_rule'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:418:in `visit_rule'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `block (2 levels) in visit_rule'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `map'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `block in visit_rule'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:418:in `visit_rule'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `map'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:157:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:8:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/root_node.rb:36:in `css_tree'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:368:in `_render_with_sourcemap'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:285:in `render_with_sourcemap'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:396:in `run'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
-/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:18:in `load'
-/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:18:in `<main>'
+* Custom variables
 */
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Undefined variable: \"$screen-lg\".\A         on line 54 of /Users/Kev./Dropbox/ig-portfolio/css/style.scss\A \A 49: 		top: 0;\A 50: 		left: 50%;\A 51: 		margin-left: -600px;\A 52: 		width: 1200px;\A 53: 	\A 54: 		@media screen and (min-width: $screen-lg) {\A 55: 			top: auto;\A 56: 			left: auto;\A 57: 			margin: 0;\A 58: 			width: 100%;\A 59: 		}"; }
+/* Laptop min screen size */
+/* iPad min screen size */
+/* iPhone min screen size */
+/*
+* Override Bootstrap variables
+*/
+@import url(bootstrap.css);
+/*
+* General Styles
+*/
+/* line 36, style.scss */
+* {
+  postiion: relative;
+  box-sizing: border-box;
+}
+
+/* line 41, style.scss */
+body {
+  color: #585c65;
+  font-size: 16px;
+}
+
+/* line 46, style.scss */
+header {
+  max-height: 600px;
+  height: 600px;
+  overflow: hidden;
+}
+/* line 51, style.scss */
+header img {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  margin-left: -600px;
+  width: 1200px;
+}
+@media screen and (min-width: 1200px) {
+  /* line 51, style.scss */
+  header img {
+    top: auto;
+    left: auto;
+    margin: 0;
+    width: 100%;
+  }
+}
+/* line 66, style.scss */
+header .name {
+  font-size: 21px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  color: #fff;
+}
+/* line 74, style.scss */
+header .titles {
+  position: absolute;
+  bottom: 40%;
+  width: 100%;
+  text-align: center;
+}
+@media screen and (min-width: 1200px) {
+  /* line 74, style.scss */
+  header .titles {
+    bottom: 50%;
+  }
+}
+/* line 85, style.scss */
+header h1, header h2 {
+  width: 100%;
+  color: #fff;
+  margin: 0;
+}
+/* line 91, style.scss */
+header h1 {
+  text-transform: uppercase;
+  font-size: 36px;
+  letter-spacing: 0.06em;
+  margin-bottom: 10px;
+}
+/* line 98, style.scss */
+header h1 span {
+  display: block;
+}
+@media screen and (min-width: 320px) {
+  /* line 98, style.scss */
+  header h1 span {
+    display: inline;
+  }
+}
+/* line 107, style.scss */
+header h2 {
+  font-size: 22px;
+  font-weight: 100;
+  width: 70%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 1200px) {
+  /* line 107, style.scss */
+  header h2 {
+    width: 100%;
+    margin: 0;
+  }
+}
+/* line 119, style.scss */
+header .social {
+  position: absolute;
+  top: 55px;
+  right: 50px;
+  overflow: hidden;
+}
+/* line 125, style.scss */
+header .social a {
+  float: left;
+  width: 26px;
+  height: 26px;
+  margin: 0 5px;
+  text-indent: -9999px;
+  background: url(../assets/icons/social-sprite.png) no-repeat;
+  opacity: 0.8;
+}
+/* line 134, style.scss */
+header .social a:hover {
+  opacity: 1.0;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (-min-device-pixel-ratio: 2) {
+  /* line 125, style.scss */
+  header .social a {
+    background: url(../assets/icons/social-sprite@2x.png) no-repeat;
+    background-size: 76px 26px;
+  }
+}
+/* line 143, style.scss */
+header .social a.facebook {
+  background-position: 0px 0px;
+}
+/* line 147, style.scss */
+header .social a.twitter {
+  background-position: -25px 0px;
+}
+/* line 151, style.scss */
+header .social a.instagram {
+  background-position: -50px 0px;
+}
+
+/* line 158, style.scss */
+.fancy-font {
+  font-family: "Kaushan Script", cursive;
+}
+
+/* line 162, style.scss */
+.instagram-wrap {
+  background: #eeeeee;
+}
+
+/* line 167, style.scss */
+.instagram-content h3 {
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  padding: 50px 0;
+  color: #bbbbbb;
+}
+/* line 176, style.scss */
+.instagram-content .photo-box {
+  margin: 0 0 30px 0;
+}
+/* line 180, style.scss */
+.instagram-content .photo-box .image-wrap img {
+  width: 100%;
+}
+/* line 184, style.scss */
+.instagram-content .photo-box .image-wrap .likes {
+  position: absolute;
+  bottom: 105px;
+  left: 15px;
+  padding: 5px;
+  background: #000;
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+/* line 194, style.scss */
+.instagram-content .photo-box .description {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  background: #fff;
+  color: #9b9b9b;
+  letter-spacing: 1px;
+  padding: 15px;
+  height: 75px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/*# sourceMappingURL=style.css.map */
